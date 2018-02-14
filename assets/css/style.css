@@ -1,0 +1,36 @@
+body {
+  background-color: #ff8a80;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+img {
+  width: 40%;
+  border-radius: 50%;
+  display: block;
+  margin: 25px auto;
+  border: 7px solid #ff5252
+}
+
+button, .close {
+  background: #ff5252;
+  width: 12%;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 5px 0 5px 0;
+  transition: 0.25s;
+}
+
+.close:hover,
+.close:focus {
+  box-shadow: 
+    inset -3.5em 0 0 0 #fff,
+    inset 3.5em 0 0 0 #fff;  
+}
+
+button:hover, button:focus {
+  color: #ff5252;
+}
